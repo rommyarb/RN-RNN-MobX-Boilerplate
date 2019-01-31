@@ -16,9 +16,5 @@
 #   public *;
 #}
 
-#-keep class io.invertase.firebase.** { *; }
-#-dontwarn io.invertase.firebase.**
-#-dontwarn android.text.StaticLayout
 -keep class com.facebook.** { *; }
 -keep class com.reactnativenavigation.** { *; }
-#-keep class com.airbnb.android.react.lottie.** { *; }
